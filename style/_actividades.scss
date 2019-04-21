@@ -1,0 +1,58 @@
+.actividades {
+  position: relative;
+
+
+
+  h2 {
+    font-family: $main_font;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+  }
+  .button {
+      display: inline-block;
+      background-color: $primary_purple;
+      padding: 5px 15px 5px 15px;
+      border-radius: 15px;
+    span {
+      color: white;
+      font-family: $button_font;
+      font-size: 25px;
+      position: relative;
+
+    }
+  }
+  .colectas{
+    background-image: url("../img/colecta.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+  .alimentos {
+    background-image: url("../img/alimento.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .castraciones {
+    background-image: url("../img/veterinario.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

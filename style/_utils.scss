@@ -1,7 +1,12 @@
 $primary_purple: #af00ff;
+$secondary_purple: #df99ff;
 $links_font: 'Ubuntu', sans-serif;
-$main_font: 'Poppins', sans-serif;
-
+$main_font: 'Open Sans', sans-serif;
+$button_font: 'Roboto', sans-serif;
 h2 {
   font-size: 50px;
+
 }
+
+$secondary_purple: lighten($primary_purple, 40%);
+$tertiary_purple: darken( $primary_purple, 10% );
