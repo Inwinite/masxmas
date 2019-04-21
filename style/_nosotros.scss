@@ -1,0 +1,27 @@
+.nosotros {
+  background-color: $primary_purple;
+  height: 100vh;
+  .introduccion {
+    font-family: $main_font;
+    text-align: left;
+    margin-top: 25vh;
+    margin-left: 20px;
+    h2 {
+      text-transform: uppercase;
+      color: white;
+    }
+    p {
+      margin-top: 10px;
+      color: white;
+      font-size:16px;
+      line-height: 20px;
+      }
+  }
+.pets {
+  background-image: url("../img/pets.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+  }
